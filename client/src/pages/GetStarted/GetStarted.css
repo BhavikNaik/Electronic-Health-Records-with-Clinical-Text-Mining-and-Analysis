@@ -1,0 +1,56 @@
+.modal-dialog{
+    max-width: 77%;
+    margin-top: 100px;
+}
+.modal_page{
+    display: flex;
+    flex-direction: column;
+}
+.top_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_container{
+    width: 50%;
+    display: grid;
+    justify-content: center;
+}
+.modal_button{
+    background-color: rgb(52, 188, 242);
+}
+.modal_button:hover{
+    background-color: rgb(65, 139, 235);
+}
+.submit_div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+.login_image{
+    height: 350px;
+}
+.main_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+}
+#fc_email{
+    width: 100%;
+}
+.login_form{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px
+
+}

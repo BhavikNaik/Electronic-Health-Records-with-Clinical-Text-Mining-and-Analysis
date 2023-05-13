@@ -1,0 +1,70 @@
+.mainPage{
+    background-image: url('../../assets/bg1.jpg');
+    padding-top: 82px;
+    /* position: relative; */
+    min-height: 100vh;
+    
+}
+
+.demographics{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: aliceblue;
+    margin: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    gap: 10px;
+    border-radius: 10px;
+
+    padding: 40px 10px;    
+}
+.profile_container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: aliceblue;
+    margin: 20px;
+    margin-bottom: 30px;
+    /* display: grid;
+    grid-template-columns: 200px auto; */
+    gap: 10px;
+    border-radius: 10px;
+
+    padding: 40px 10px; 
+}
+.demographics h4{
+    padding: 10px;
+    
+}
+.avtarGrid{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.gridInner{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.innerGridDetails{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+.divHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 900px) {
+    .demographics{
+        grid-template-columns: auto;
+    }
+    .divHead{
+        margin-bottom: 20px;
+    }
+    
+}

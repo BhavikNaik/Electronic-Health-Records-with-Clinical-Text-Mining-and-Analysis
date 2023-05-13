@@ -1,0 +1,8 @@
+.header_main {
+    background-color: #d0daf1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.login_but {
+    font-family: 'Open Sans', sans-serif;
+}
